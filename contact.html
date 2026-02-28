@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact | RG MediaWorks</title>
+  <meta name="description" content="Contact RG MediaWorks for sponsorships, affiliate partnerships, and business inquiries for RedGingerRR." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="RG MediaWorks Home">
+        <span class="brand-mark" aria-hidden="true">RG</span>
+        <span class="brand-text">
+          <span class="brand-name">RG MediaWorks</span>
+          <span class="brand-tag">Contact</span>
+        </span>
+      </a>
+
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="partnerships.html">Brands & Partnerships</a>
+        <a href="contact.html" class="active btn btn-sm">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="page">
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <h1>Contact RG MediaWorks</h1>
+          <p>
+            For sponsorships, partnerships, and affiliate opportunities related to <strong>RedGingerRR</strong>,
+            use the form below or email directly.
+          </p>
+        </div>
+
+        <div class="split">
+          <div class="card form-card">
+            <h2 class="h3">Send an inquiry</h2>
+
+            <!-- FREE option with no backend: this opens the visitor's email client -->
+            <form action="mailto:partnerships@rgmediaworks.com" method="post" enctype="text/plain">
+              <label>
+                Name
+                <input name="Name" type="text" placeholder="Your name" required />
+              </label>
+
+              <label>
+                Company / Brand
+                <input name="Company" type="text" placeholder="Company name" required />
+              </label>
+
+              <label>
+                Email
+                <input name="Email" type="email" placeholder="you@company.com" required />
+              </label>
+
+              <label>
+                Partnership type
+                <select name="Partnership Type" required>
+                  <option value="" selected disabled>Select one</option>
+                  <option>Sponsored integration</option>
+                  <option>Short-form package</option>
+                  <option>Affiliate partnership</option>
+                  <option>Other / custom</option>
+                </select>
+              </label>
+
+              <label>
+                Budget range (optional)
+                <select name="Budget Range">
+                  <option value="" selected>Prefer not to say</option>
+                  <option>$250–$500</option>
+                  <option>$500–$1,000</option>
+                  <option>$1,000–$2,500</option>
+                  <option>$2,500+</option>
+                </select>
+              </label>
+
+              <label>
+                Message
+                <textarea name="Message" rows="6" placeholder="Goal, timeline, and any key links or requirements..." required></textarea>
+              </label>
+
+              <button class="btn" type="submit">Send inquiry</button>
+
+              <p class="small muted">
+                Note: This form uses your email app (no paid form service). If you want a “true web form” later,
+                you can swap this to a free form endpoint.
+              </p>
+            </form>
+          </div>
+
+          <aside class="card">
+            <h2 class="h3">Direct contact</h2>
+            <p class="muted">Use whichever is easiest.</p>
+
+            <div class="contact-lines">
+              <div>
+                <div class="k">Email</div>
+                <div class="v"><a href="mailto:sponsorships@rgmediaworks.com">sponsorships@rgmediaworks.com</a></div>
+              </div>
+              <div>
+                <div class="k">Flagship brand</div>
+                <div class="v">RedGingerRR</div>
+              </div>
+              <div>
+                <div class="k">Media kit</div>
+                <div class="v"><a href="#" target="_blank" rel="noopener">Add your PDF link</a></div>
+              </div>
+            </div>
+
+            <hr class="panel-divider" />
+
+            <h3 class="h4">What to include</h3>
+            <ul class="bullets">
+              <li>Your goal (awareness, trials, sales)</li>
+              <li>Timing and deadlines</li>
+              <li>Budget range or target CPA</li>
+              <li>Any required talking points or do-not-say items</li>
+            </ul>
+
+            <p class="small muted">We reply within 2–3 business days.</p>
+          </aside>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <div class="footer-brand">RG MediaWorks</div>
+        <div class="muted">Creator-led media. Business-first partnerships.</div>
+      </div>
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="partnerships.html">Brands & Partnerships</a>
+      </div>
+      <div class="footer-note muted">
+        © <span id="y"></span> RG MediaWorks. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
