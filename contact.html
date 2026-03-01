@@ -2,156 +2,192 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Contact | RG MediaWorks</title>
-  <meta name="description" content="Contact RG MediaWorks for sponsorships, affiliate partnerships, and business inquiries for RedGingerRR." />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>RG MediaWorks | Contact</title>
+  <meta name="description" content="Contact RG MediaWorks for sponsorships, partnerships, and affiliate opportunities." />
   <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
-  <a class="skip-link" href="#main">Skip to content</a>
+  <a class="skip-link" href="#main">Skip to main content</a>
 
-  <header class="site-header">
+  <header class="header" role="banner">
     <div class="container header-inner">
-      <a class="brand" href="index.html" aria-label="RG MediaWorks Home">
+      <a class="brand" href="index.html" aria-label="RG MediaWorks home">
         <span class="brand-mark" aria-hidden="true">RG</span>
         <span class="brand-text">
           <span class="brand-name">RG MediaWorks</span>
-          <span class="brand-tag">Contact</span>
+          <span class="brand-tag">Contact • Sponsorships</span>
         </span>
       </a>
 
-      <nav class="nav">
-        <a href="index.html">Home</a>
-        <a href="partnerships.html">Brands & Partnerships</a>
-        <a href="contact.html" class="active btn btn-sm">Contact</a>
+      <nav class="nav" aria-label="Primary">
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="navMenu">Menu</button>
+        <ul id="navMenu" class="nav-links">
+          <li><a href="index.html" data-page="index.html">Home</a></li>
+          <li><a href="sponsorships.html" data-page="sponsorships.html">Sponsorships</a></li>
+          <li><a href="media-kit.html" data-page="media-kit.html">Media Kit</a></li>
+          <li><a href="contact.html" data-page="contact.html">Contact</a></li>
+        </ul>
+        <div class="tools">
+          <button id="themeBtn" class="icon-btn" type="button" aria-pressed="false">Theme</button>
+        </div>
       </nav>
     </div>
   </header>
 
-  <main id="main" class="page">
-    <section class="section">
-      <div class="container">
-        <div class="section-head">
-          <h1>Contact RG MediaWorks</h1>
-          <p>
-            For sponsorships, partnerships, and affiliate opportunities related to <strong>RedGingerRR</strong>,
-            use the form below or email directly.
+  <main id="main" tabindex="-1">
+    <section class="hero" aria-labelledby="title">
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h1 id="title">Sponsorship inquiries</h1>
+          <p class="lead">
+            Share your goal + timeline + budget range. We’ll respond with next steps and a best-fit recommendation.
           </p>
+
+          <div class="card soft">
+            <h2>Quick tips to move fast</h2>
+            <ul class="bullets">
+              <li>Goal: awareness, trials, traffic, or sales</li>
+              <li>Timeline + deadlines</li>
+              <li>Budget range or target CPA</li>
+              <li>Required talking points and links</li>
+              <li>Any do-not-say items</li>
+            </ul>
+          </div>
         </div>
 
-        <div class="split">
-          <div class="card form-card">
-            <h2 class="h3">Send an inquiry</h2>
-
-            <!-- FREE option with no backend: this opens the visitor's email client -->
-            <form action="mailto:partnerships@rgmediaworks.com" method="post" enctype="text/plain">
-              <label>
-                Name
-                <input name="Name" type="text" placeholder="Your name" required />
-              </label>
-
-              <label>
-                Company / Brand
-                <input name="Company" type="text" placeholder="Company name" required />
-              </label>
-
-              <label>
-                Email
-                <input name="Email" type="email" placeholder="you@company.com" required />
-              </label>
-
-              <label>
-                Partnership type
-                <select name="Partnership Type" required>
-                  <option value="" selected disabled>Select one</option>
-                  <option>Sponsored integration</option>
-                  <option>Short-form package</option>
-                  <option>Affiliate partnership</option>
-                  <option>Other / custom</option>
-                </select>
-              </label>
-
-              <label>
-                Budget range (optional)
-                <select name="Budget Range">
-                  <option value="" selected>Prefer not to say</option>
-                  <option>$250–$500</option>
-                  <option>$500–$1,000</option>
-                  <option>$1,000–$2,500</option>
-                  <option>$2,500+</option>
-                </select>
-              </label>
-
-              <label>
-                Message
-                <textarea name="Message" rows="6" placeholder="Goal, timeline, and any key links or requirements..." required></textarea>
-              </label>
-
-              <button class="btn" type="submit">Send inquiry</button>
-
-              <p class="small muted">
-                Note: This form uses your email app (no paid form service). If you want a “true web form” later,
-                you can swap this to a free form endpoint.
-              </p>
-            </form>
+        <aside class="card" aria-label="Direct contact">
+          <h2>Direct contact</h2>
+          <div class="kv">
+            <div class="kv-row"><span class="k">Email</span><span class="v"><a href="mailto:sponsorships@rgmediaworks.com" id="metaEmail">sponsorships@rgmediaworks.com</a></span></div>
+            <div class="kv-row"><span class="k">Response time</span><span class="v">2–3 business days</span></div>
+            <div class="kv-row"><span class="k">Flagship brand</span><span class="v">RedGingerRR</span></div>
           </div>
 
-          <aside class="card">
-            <h2 class="h3">Direct contact</h2>
-            <p class="muted">Use whichever is easiest.</p>
+          <hr class="hr" />
 
-            <div class="contact-lines">
-              <div>
-                <div class="k">Email</div>
-                <div class="v"><a href="mailto:partnerships@rgmediaworks.com">partnerships@rgmediaworks.com</a></div>
-              </div>
-              <div>
-                <div class="k">Flagship brand</div>
-                <div class="v">RedGingerRR</div>
-              </div>
-              <div>
-                <div class="k">Media kit</div>
-                <div class="v"><a href="#" target="_blank" rel="noopener">Add your PDF link</a></div>
-              </div>
+          <p class="small muted">
+            This form is powered by Formspree for reliability (no paid backend needed).
+          </p>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section alt" aria-labelledby="formTitle">
+      <div class="container grid2">
+        <div class="card">
+          <h2 id="formTitle">Send a message</h2>
+
+          <form
+            id="contactForm"
+            action="https://formspree.io/f/mdalvbgn"
+            method="POST"
+            novalidate
+            aria-describedby="formHelp"
+          >
+            <div class="field">
+              <label for="name">Name</label>
+              <input id="name" name="name" autocomplete="name" required />
+              <p class="error" id="errName" aria-live="polite"></p>
             </div>
 
-            <hr class="panel-divider" />
+            <div class="field">
+              <label for="company">Company / Brand</label>
+              <input id="company" name="company" autocomplete="organization" required />
+              <p class="error" id="errCompany" aria-live="polite"></p>
+            </div>
 
-            <h3 class="h4">What to include</h3>
-            <ul class="bullets">
-              <li>Your goal (awareness, trials, sales)</li>
-              <li>Timing and deadlines</li>
-              <li>Budget range or target CPA</li>
-              <li>Any required talking points or do-not-say items</li>
-            </ul>
+            <div class="field">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" autocomplete="email" required />
+              <p class="error" id="errEmail" aria-live="polite"></p>
+            </div>
 
-            <p class="small muted">We reply within 2–3 business days.</p>
-          </aside>
+            <div class="field">
+              <label for="type">Partnership type</label>
+              <select id="type" name="type" required>
+                <option value="" selected disabled>Select one</option>
+                <option>Sponsored integration</option>
+                <option>Short-form campaign</option>
+                <option>Affiliate partnership</option>
+                <option>Other / custom</option>
+              </select>
+              <p class="error" id="errType" aria-live="polite"></p>
+            </div>
+
+            <div class="field">
+              <label for="budget">Budget range (optional)</label>
+              <select id="budget" name="budget">
+                <option value="" selected>Prefer not to say</option>
+                <option>$250–$500</option>
+                <option>$500–$1,000</option>
+                <option>$1,000–$2,500</option>
+                <option>$2,500+</option>
+              </select>
+            </div>
+
+            <div class="field">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="7" required
+                placeholder="Goal, timeline, links, requirements, and any must-include notes."></textarea>
+              <p class="error" id="errMessage" aria-live="polite"></p>
+            </div>
+
+            <!-- Helpful metadata for you -->
+            <input type="hidden" name="_subject" value="RG MediaWorks — Sponsorship inquiry" />
+
+            <div class="actions">
+              <button class="btn" type="submit">Send inquiry</button>
+              <button class="btn ghost" type="reset">Clear</button>
+            </div>
+
+            <p id="formHelp" class="small muted">
+              If you prefer email: <a href="mailto:sponsorships@rgmediaworks.com">sponsorships@rgmediaworks.com</a>
+            </p>
+
+            <p class="status" id="formStatus" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+
+        <div class="card soft">
+          <h2>What happens next</h2>
+          <ol class="bullets">
+            <li>We’ll confirm fit and ask any clarifying questions.</li>
+            <li>You’ll get a recommended package and timeline.</li>
+            <li>We align on messaging, links, and requirements.</li>
+            <li>We execute sponsor-safe content with clear disclosure.</li>
+          </ol>
+
+          <div class="actions">
+            <a class="btn sm" href="sponsorships.html">Sponsorship options</a>
+            <a class="btn ghost sm" href="media-kit.html">Media kit</a>
+          </div>
         </div>
       </div>
     </section>
   </main>
 
-  <footer class="site-footer">
-    <div class="container footer-grid">
+  <footer class="footer" role="contentinfo">
+    <div class="container footer-inner">
       <div>
         <div class="footer-brand">RG MediaWorks</div>
-        <div class="muted">Creator-led media. Business-first partnerships.</div>
+        <p class="muted small">Sponsorships: <a href="mailto:sponsorships@rgmediaworks.com">sponsorships@rgmediaworks.com</a></p>
       </div>
-      <div class="footer-links">
-        <a href="index.html">Home</a>
-        <a href="partnerships.html">Brands & Partnerships</a>
-      </div>
-      <div class="footer-note muted">
-        © <span id="y"></span> RG MediaWorks. All rights reserved.
-      </div>
+
+      <nav aria-label="Footer">
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="media-kit.html">Media Kit</a></li>
+        </ul>
+      </nav>
+
+      <div class="muted small">© <span id="year"></span> RG MediaWorks</div>
     </div>
   </footer>
 
-  <script>
-    document.getElementById("y").textContent = new Date().getFullYear();
-  </script>
+  <script src="stats.js"></script>
+  <script src="script.js" defer></script>
 </body>
-
 </html>

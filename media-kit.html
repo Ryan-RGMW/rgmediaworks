@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>RG MediaWorks | Media Kit</title>
+  <meta name="description" content="Download the sponsor-ready media kit for RG MediaWorks / RedGingerRR." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="header" role="banner">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="RG MediaWorks home">
+        <span class="brand-mark" aria-hidden="true">RG</span>
+        <span class="brand-text">
+          <span class="brand-name">RG MediaWorks</span>
+          <span class="brand-tag">Media kit • Flagship: <span id="metaFlagship">RedGingerRR</span></span>
+        </span>
+      </a>
+
+      <nav class="nav" aria-label="Primary">
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="navMenu">Menu</button>
+        <ul id="navMenu" class="nav-links">
+          <li><a href="index.html" data-page="index.html">Home</a></li>
+          <li><a href="sponsorships.html" data-page="sponsorships.html">Sponsorships</a></li>
+          <li><a href="media-kit.html" data-page="media-kit.html">Media Kit</a></li>
+          <li><a href="contact.html" data-page="contact.html">Contact</a></li>
+        </ul>
+        <div class="tools">
+          <button id="themeBtn" class="icon-btn" type="button" aria-pressed="false">Theme</button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" tabindex="-1">
+    <section class="hero" aria-labelledby="title">
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow">Media kit</p>
+          <h1 id="title">Download the sponsor-ready PDF</h1>
+          <p class="lead">
+            Built for decision makers: clean stats, clear positioning, and a fast path to contact.
+          </p>
+
+          <div class="actions" role="group" aria-label="Media kit actions">
+            <a class="btn" href="media-kit.pdf" target="_blank" rel="noopener">Download media kit (PDF)</a>
+            <a class="btn ghost" href="contact.html">Ask about availability</a>
+          </div>
+
+          <p class="small muted">
+            Tip: keep the filename simple. If yours is different, update this link (or rename your PDF to <code>media-kit.pdf</code>).
+          </p>
+        </div>
+
+        <aside class="card soft" aria-label="Quick facts">
+          <h2>Quick facts</h2>
+          <div class="kv">
+            <div class="kv-row"><span class="k">Subscribers</span><span class="v" id="statSubscribers">8,200+</span></div>
+            <div class="kv-row"><span class="k">Impressions (28 days)</span><span class="v" id="statImpressions">2.2M+</span></div>
+            <div class="kv-row"><span class="k">Typical Shorts views</span><span class="v" id="statShorts">~100,000</span></div>
+            <div class="kv-row"><span class="k">Top markets</span><span class="v" id="metaCountries">United States, India, Germany</span></div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section alt" aria-labelledby="linksTitle">
+      <div class="container grid2">
+        <div class="card">
+          <h2 id="linksTitle">Key links</h2>
+          <ul class="bullets">
+            <li><a id="linkYouTube" href="#" target="_blank" rel="noopener">RedGingerRR YouTube channel</a></li>
+            <li><a id="linkShorts" href="#" target="_blank" rel="noopener">Top Shorts playlist</a></li>
+            <li><a id="linkEvergreen" href="#" target="_blank" rel="noopener">Evergreen guides playlist</a></li>
+          </ul>
+          <p class="small muted">Update these links in <code>stats.js</code>.</p>
+        </div>
+
+        <div class="card soft">
+          <h2>Next step</h2>
+          <p class="muted">Send a goal + timeline + budget range and we’ll recommend a best-fit package.</p>
+          <ul class="bullets">
+            <li>Awareness, trials, traffic, or sales</li>
+            <li>Deadline and key requirements</li>
+            <li>Required talking points / do-not-say items</li>
+          </ul>
+          <div class="actions">
+            <a class="btn sm" href="contact.html">Start an inquiry</a>
+            <a class="btn ghost sm" href="sponsorships.html">Sponsorship options</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" role="contentinfo">
+    <div class="container footer-inner">
+      <div>
+        <div class="footer-brand">RG MediaWorks</div>
+        <p class="muted small">Media kit and sponsorship inquiries: <span id="metaEmail">sponsorships@rgmediaworks.com</span></p>
+      </div>
+
+      <nav aria-label="Footer">
+        <ul class="footer-links">
+          <li><a href="sponsorships.html">Sponsorships</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="muted small">© <span id="year"></span> RG MediaWorks</div>
+    </div>
+  </footer>
+
+  <script src="stats.js"></script>
+  <script src="script.js" defer></script>
+</body>
+</html>

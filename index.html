@@ -2,215 +2,208 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>RG MediaWorks | Sponsorships & Partnerships</title>
-  <meta name="description" content="RG MediaWorks is a creator-led media company. Home of RedGingerRR — gaming and city-building content built for high-trust brand partnerships." />
-  <meta name="robots" content="index,follow" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>RG MediaWorks | Boutique Creator-Led Media Company</title>
+  <meta name="description" content="RG MediaWorks is a boutique creator-led media company. Sponsor-safe partnerships powered by the flagship brand RedGingerRR." />
   <link rel="stylesheet" href="styles.css" />
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23203C4B'/%3E%3Cpath d='M18 44V20h14c6 0 10 3 10 9 0 5-3 8-8 9l9 6h-8l-8-6h-2v6h-7zm7-12h6c2 0 4-1 4-3s-2-3-4-3h-6v6z' fill='%23E69C5C'/%3E%3C/svg%3E" />
 </head>
 
 <body>
-  <a class="skip-link" href="#main">Skip to content</a>
+  <a class="skip-link" href="#main">Skip to main content</a>
 
-  <header class="site-header">
+  <header class="header" role="banner">
     <div class="container header-inner">
-      <a class="brand" href="index.html" aria-label="RG MediaWorks Home">
+      <a class="brand" href="index.html" aria-label="RG MediaWorks home">
         <span class="brand-mark" aria-hidden="true">RG</span>
         <span class="brand-text">
           <span class="brand-name">RG MediaWorks</span>
-          <span class="brand-tag">Sponsorships • Partnerships • Affiliate Opportunities</span>
+          <span class="brand-tag">Boutique media • Sponsor-safe • Flagship: <span id="metaFlagship">RedGingerRR</span></span>
         </span>
       </a>
 
-      <nav class="nav">
-        <a href="index.html" class="active">Home</a>
-        <a href="partnerships.html">Brands & Partnerships</a>
-        <a href="contact.html" class="btn btn-sm">Contact</a>
+      <nav class="nav" aria-label="Primary">
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="navMenu">Menu</button>
+
+        <ul id="navMenu" class="nav-links">
+          <li><a href="index.html" data-page="index.html">Home</a></li>
+          <li><a href="sponsorships.html" data-page="sponsorships.html">Sponsorships</a></li>
+          <li><a href="media-kit.html" data-page="media-kit.html">Media Kit</a></li>
+          <li><a href="contact.html" data-page="contact.html">Contact</a></li>
+        </ul>
+
+        <div class="tools" aria-label="Display options">
+          <button id="themeBtn" class="icon-btn" type="button" aria-pressed="false">Theme</button>
+        </div>
       </nav>
     </div>
   </header>
 
-  <main id="main">
-    <section class="hero">
+  <main id="main" tabindex="-1">
+    <section class="hero" aria-labelledby="heroTitle">
       <div class="container hero-grid">
         <div>
-          <h1>Business-first partnerships, powered by <span class="accent">RedGingerRR</span>.</h1>
+          <div class="badge">Creator-led • Business-first • Trust-driven</div>
+          <p class="eyebrow">RG MediaWorks</p>
+
+          <h1 id="heroTitle">
+            A modern boutique media company built for <span class="accent">high-trust sponsorships</span>.
+          </h1>
+
           <p class="lead">
-            RG MediaWorks is a creator-led media company focused on high-trust integrations with a dedicated gaming audience.
-            Our flagship brand, <strong>RedGingerRR</strong>, specializes in city builders and systems-driven gameplay.
+            RG MediaWorks is the business home for professional partnerships and sponsor-safe campaigns.
+            Our flagship creator brand, <strong>RedGingerRR</strong>, delivers educational, funny, and relevant content for a systems-minded gaming audience.
           </p>
 
-          <div class="hero-cta">
-            <a class="btn" href="contact.html">Start a partnership inquiry</a>
-            <a class="btn btn-ghost" href="partnerships.html">See partnership options</a>
+          <div class="actions" role="group" aria-label="Primary actions">
+            <a class="btn" href="contact.html">Start an inquiry</a>
+            <a class="btn ghost" href="media-kit.html">Download media kit</a>
+            <a class="btn ghost sm" href="sponsorships.html">See sponsorship options</a>
           </div>
 
-          <div class="trust-row" role="list" aria-label="Highlights">
-            <div class="trust-card" role="listitem">
-              <div class="trust-title">Flagship Audience</div>
-              <div class="trust-text">City builders • simulation • transit and systems</div>
-            </div>
-            <div class="trust-card" role="listitem">
-              <div class="trust-title">Integration Style</div>
-              <div class="trust-text">Clear, honest, and audience-aligned</div>
-            </div>
-            <div class="trust-card" role="listitem">
-              <div class="trust-title">Deliverables</div>
-              <div class="trust-text">Short-form + long-form + affiliate placements</div>
-            </div>
-          </div>
+          <p class="note">
+            Quick contact: <a href="mailto:sponsorships@rgmediaworks.com"><span id="metaEmail">sponsorships@rgmediaworks.com</span></a>
+          </p>
         </div>
 
-        <aside class="hero-panel" aria-label="RedGingerRR Snapshot">
-          <div class="panel-title">RedGingerRR (Flagship)</div>
+        <aside class="card soft" aria-label="Sponsor snapshot">
+          <h2>Sponsor snapshot</h2>
 
-          <div class="panel-metric">
-            <div class="k">Primary Platform</div>
-            <div class="v">YouTube</div>
-          </div>
-          <div class="panel-metric">
-            <div class="k">Content Focus</div>
-            <div class="v">Cities: Skylines 2 + city builders</div>
-          </div>
-          <div class="panel-metric">
-            <div class="k">Posting Cadence</div>
-            <div class="v">Shorts + series episodes + evergreen guides</div>
+          <div class="kv" role="list">
+            <div class="kv-row" role="listitem"><span class="k">Flagship brand</span><span class="v">RedGingerRR</span></div>
+            <div class="kv-row" role="listitem"><span class="k">Cadence</span><span class="v" id="metaCadence">2 Shorts/week • 2 long-form/month</span></div>
+            <div class="kv-row" role="listitem"><span class="k">Top markets</span><span class="v" id="metaCountries">United States, India, Germany</span></div>
+            <div class="kv-row" role="listitem"><span class="k">Audience</span><span class="v"><span id="metaAge">18–44</span> • <span id="metaGender">95% male</span></span></div>
           </div>
 
-          <hr class="panel-divider" />
+          <div class="actions" role="group" aria-label="Snapshot actions">
+            <a class="btn sm" href="media-kit.html">Media kit</a>
+            <a class="btn ghost sm" href="contact.html">Contact</a>
+          </div>
 
-          <div class="panel-title">Quick Links</div>
-          <ul class="link-list">
-            <li><a href="https://youtube.com/@RedGingerRR" target="_blank" rel="noopener">YouTube Channel</a></li>
-            <li><a href="#" target="_blank" rel="noopener">Media Kit PDF (add link)</a></li>
-            <li><a href="#" target="_blank" rel="noopener">Affiliate & Sponsorship Terms (optional)</a></li>
-          </ul>
-
-          <p class="panel-note">
-            Replace the “add link” items once you’re ready. The site stays business-only and sponsor-friendly.
+          <p class="small muted">
+            Built to make sponsor decisions easy: clear deliverables, clean communication, and audience trust protected.
           </p>
         </aside>
       </div>
+
+      <div class="container">
+        <div class="stats" aria-label="Key performance stats">
+          <div class="stat">
+            <div class="value" id="statSubscribers">8,200+</div>
+            <div class="label">Subscribers</div>
+          </div>
+          <div class="stat">
+            <div class="value" id="statImpressions">2.2M+</div>
+            <div class="label">Impressions (28 days)</div>
+          </div>
+          <div class="stat">
+            <div class="value" id="statLong">~5,000</div>
+            <div class="label">Typical long-form views</div>
+          </div>
+          <div class="stat">
+            <div class="value" id="statShorts">~100,000</div>
+            <div class="label">Typical Shorts views</div>
+          </div>
+        </div>
+      </div>
     </section>
 
-    <section class="section">
+    <section class="section alt" aria-labelledby="servicesTitle">
       <div class="container">
-        <div class="section-head">
-          <h2>What we offer</h2>
-          <p>Simple packages that align with your goals and our audience’s expectations.</p>
-        </div>
+        <h2 id="servicesTitle">What we offer</h2>
 
-        <div class="cards">
-          <article class="card">
-            <h3>Sponsored Integrations</h3>
-            <p>Integrated segments inside existing series and evergreen videos, clearly disclosed and naturally placed.</p>
+        <div class="grid3" role="list">
+          <article class="card" role="listitem">
+            <h3>Sponsored integrations</h3>
+            <p class="muted">Native segments inside relevant long-form content. Sponsor-safe, clearly disclosed, and aligned to audience needs.</p>
             <ul class="bullets">
-              <li>Mid-roll or opening integration</li>
-              <li>CTA + tracking link support</li>
+              <li>Integrated segment (opening or mid-roll)</li>
+              <li>Tracked link support + CTA</li>
               <li>Optional pinned comment</li>
             </ul>
           </article>
 
-          <article class="card">
-            <h3>Short-form Campaigns</h3>
-            <p>Fast-turn promotional content that fits the platform and the niche. Great for launches and awareness.</p>
+          <article class="card" role="listitem">
+            <h3>Short-form campaigns</h3>
+            <p class="muted">High reach, fast iteration, and clean messaging built for retention.</p>
             <ul class="bullets">
-              <li>Shorts/Reels/TikTok-ready format</li>
-              <li>Hook + benefit + CTA structure</li>
+              <li>Shorts-first hooks + scripting</li>
               <li>Multiple variations available</li>
+              <li>Great for launches + trials</li>
             </ul>
           </article>
 
-          <article class="card">
-            <h3>Affiliate Partnerships</h3>
-            <p>High-intent placements where it makes sense (gear, software, services). Built for long-term ROI.</p>
+          <article class="card" role="listitem">
+            <h3>Affiliate partnerships</h3>
+            <p class="muted">Long-term placements for products that honestly help the audience.</p>
             <ul class="bullets">
-              <li>Links in description + site</li>
-              <li>Periodic callouts where relevant</li>
-              <li>Transparent disclosure</li>
+              <li>Description + site placement</li>
+              <li>Periodic mentions when relevant</li>
+              <li>Transparent disclosures</li>
             </ul>
           </article>
         </div>
-      </div>
-    </section>
 
-    <section class="section alt">
-      <div class="container">
-        <div class="split">
-          <div>
-            <h2>Why brands work with RG MediaWorks</h2>
-            <p>
-              We operate like a business. Clear deliverables. Clear timelines. Clear communication.
-              And we protect audience trust — because that’s what makes partnerships actually perform.
-            </p>
-            <ul class="checks">
-              <li>Creator-led creative that stays authentic</li>
-              <li>Professional communication + predictable delivery</li>
-              <li>Disclosure-first approach (sponsor-safe)</li>
-              <li>Performance-friendly: links, tracking, and post-campaign recap (optional)</li>
-            </ul>
-          </div>
-
-          <div class="callout">
-            <h3>Ready for a sponsorship conversation?</h3>
-            <p>
-              Send an inquiry and we’ll reply with next steps, availability, and the best-fit options.
-            </p>
-            <a class="btn" href="contact.html">Contact RG MediaWorks</a>
-            <p class="small muted">
-              Tip: if you have a budget range and timeline, include it. It speeds everything up.
-            </p>
-          </div>
+        <div class="actions" style="margin-top:14px;">
+          <a class="btn" href="sponsorships.html">Explore sponsorships</a>
+          <a class="btn ghost" href="contact.html">Start an inquiry</a>
         </div>
       </div>
     </section>
 
-    <section class="section">
-      <div class="container">
-        <div class="section-head">
-          <h2>FAQ</h2>
-          <p>Quick answers for sponsors and affiliates.</p>
+    <section class="section" aria-labelledby="aboutTitle">
+      <div class="container grid2">
+        <div class="card">
+          <h2 id="aboutTitle">Boutique by design</h2>
+          <p class="muted">
+            RG MediaWorks is intentionally boutique. That means your campaign gets real attention: better messaging alignment,
+            cleaner execution, and fewer surprises.
+          </p>
+          <ul class="bullets">
+            <li>Professional communication and predictable delivery</li>
+            <li>Audience trust protected (no hypey claims)</li>
+            <li>Evergreen value (content keeps performing after the post)</li>
+          </ul>
         </div>
 
-        <div class="faq">
-          <details>
-            <summary>Do you offer custom packages?</summary>
-            <p>Yes. If you have a specific goal (traffic, trials, app installs, awareness), we’ll tailor the deliverables.</p>
-          </details>
-          <details>
-            <summary>How do disclosures work?</summary>
-            <p>We follow platform rules and disclose clearly. We prioritize sponsor safety and audience trust.</p>
-          </details>
-          <details>
-            <summary>Can we review messaging before posting?</summary>
-            <p>Yes — for sponsored segments and campaign deliverables, we can align on key points before publishing.</p>
-          </details>
+        <div class="card soft">
+          <h2>Flagship brand: RedGingerRR</h2>
+          <p class="muted">
+            RedGingerRR creates educational and entertaining content focused on complex systems, city builders, and optimization.
+            The tone is practical, funny, and sponsor-safe.
+          </p>
+
+          <div class="actions">
+            <a class="btn sm" id="linkYouTube" href="#" target="_blank" rel="noopener">YouTube channel</a>
+            <a class="btn ghost sm" href="media-kit.html">Media kit</a>
+          </div>
+
+          <p class="small muted">Tip: update YouTube + playlist links in <code>stats.js</code>.</p>
         </div>
       </div>
     </section>
   </main>
 
-  <footer class="site-footer">
-    <div class="container footer-grid">
+  <footer class="footer" role="contentinfo">
+    <div class="container footer-inner">
       <div>
         <div class="footer-brand">RG MediaWorks</div>
-        <div class="muted">Creator-led media. Business-first partnerships.</div>
+        <p class="muted small">Creator-led media. Business-first partnerships. Audience trust always.</p>
       </div>
-      <div class="footer-links">
-        <a href="partnerships.html">Brands & Partnerships</a>
-        <a href="contact.html">Contact</a>
-        <a href="index.html#main">Back to top</a>
-      </div>
-      <div class="footer-note muted">
-        © <span id="y"></span> RG MediaWorks. All rights reserved.
-      </div>
+
+      <nav aria-label="Footer">
+        <ul class="footer-links">
+          <li><a href="sponsorships.html">Sponsorships</a></li>
+          <li><a href="media-kit.html">Media Kit</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="muted small">© <span id="year"></span> RG MediaWorks</div>
     </div>
   </footer>
 
-  <script>
-    document.getElementById("y").textContent = new Date().getFullYear();
-  </script>
+  <script src="stats.js"></script>
+  <script src="script.js" defer></script>
 </body>
 </html>
-
